@@ -1,0 +1,640 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+<title>Webmization Aamazon</title>
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div id="myModal" class="modal fade in" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="col-sm-12 col-12 col-md-12">
+        <div class="pop-content"> <img src="images/pop-logo.png" class="img-fluid center">
+          <h1> Share Your Idea</h1>
+          <form class="pop-form">
+            <input type="text" id="name" maxlength="25" placeholder="Name" class="field-pop">
+            <input type="email" id="email" maxlength="75" placeholder="Email" class="field-pop">
+            <input type="text" id="phone" maxlength="16" placeholder="Phone Number" class="field-pop">
+            <textarea class="message-pop" id="msg" placeholder="Message"></textarea>
+          </form>
+          <button class="submit-pop go" value="Submit Your Request" onclick="bactivate();">Submit Your Request</button>
+        </div>
+      </div>
+      <a href="#" class="close" data-dismiss="modal">x</a> </div>
+  </div>
+</div>
+<header>
+  <div class="top-had">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-5 col-md-5 col-sm-3 col-lg-3">
+          <div class="logo"> <a href="#"><img src="images/logo.png" class="img-fluid"></a> </div>
+        </div>
+        <div class="col-7 col-md-7 col-sm-4 col-lg-4 offset-lg-5">
+          <div class="row">
+            <div class="col-12 col-md-5 col-sm-5 col-lg-5">
+              <div class="icon">
+                <ul>
+                  <li><a href="https://www.facebook.com/webmization" target="_blank"><img src="images/facbooke_icon.png" class="img-fluid"></a></li>
+                  <!--<li><a href="#"><img src="images/insat_icon.png" class="img-fluid" /></a></li>-->
+                  <li><a href="https://twitter.com/webmization" target="_blank"><img src="images/tw_icon.png" class="img-fluid"></a></li>
+                  <li><a href="#" target="_blank"><img src="images/link.png" class="img-fluid"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-7 col-sm-7 col-lg-7">
+              <div class="button">
+                <button class="text animated wobble md-trigger">
+                <a href="javascript:$zopim.livechat.window.show()">TALK TO US</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="min-banner">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-12 col-sm-6 col-lg-6">
+        <div class="banner-text">
+          <h1>Amazon Account<span>Management.</span></h1>
+          <p>We manage everything for you on Amazon. We work with an expert team that will help you start selling and we give you the tools because you need to confidently manage your account. We offer a full Amazon account setup and management services.</p>
+          <div class="col-md-4 col-sm-4 col-12 col-lg-4 no_space">
+            <button class="text animated wobble">
+            <a href="#service"> VIEW SERVICES</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-12 col-sm-6 col-lg-6 no_space">
+        <div class="fom">
+          <div class="row">
+            <div class="col-md-2 col-sm-2 col-lg-2 col-2">
+              <div class="form-bg">
+                <h2>REQUEST A CONSULTATION</h2>
+              </div>
+            </div>
+            <div class="col-md-10 col-sm-10 col-lg-10 col-10">
+              <div class="form-filde">
+                <h2>Sign Up Now To Book A Consultation</h2>
+                <div class="row">
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <input type="text" placeholder="Name" id="aname">
+                  </div>
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <input type="text" placeholder="Company Name" id="acompany_name">
+                  </div>
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <input type="text" placeholder="Email" id="aemail">
+                  </div>
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <input type="number" placeholder="Phone/Mobile" id="aphone">
+                  </div>
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <select id="aservice">
+                      <option value="Service">Service</option>
+                      <option value="Service">Service</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <input type="text" placeholder="Your Idea" id="aidea">
+                  </div>
+                  <div class="col-md-12 col-sm-12  col-lg-12 col-12">
+                    <textarea placeholder="Message" id="amessage"></textarea>
+                  </div>
+                  <div class="col-md-6 col-sm-6  col-lg-6 col-12">
+                    <button class="text animated wobble" onclick="activate();">SUBMIT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+  <div class="two">
+    <div class="circle-wrapper">
+      <div class="circle circle-1 shadow-bottom c-border bg-circle"></div>
+      <div class="circle circle-2 sm-circle"></div>
+      <div class="circle circle-3 sm-circle"></div>
+      <div class="circle circle-4 shadow-top c-border  bg-circle"></div>
+      <div class="circle circle-5 shadow-top c-border  bg-circle"></div>
+      <div class="circle circle-6 sm-circle"></div>
+      <div class="circle circle-7 sm-circle"></div>
+      <div class="circle circle-8 sm-circle"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-12 col-lg-5">
+          <div class="two-text">
+            <h3>We Are <span>Amazon</span> Certified Experts.<br>
+            </h3>
+            <p>We believe there is a better way to do marketplace selling. Amazon is a valuable way to grow online businesses. We are obsessively passionate about it when you work with us. Let our experts manage your amazon account. </p>
+            <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">GET A QUOTE</button>
+            <img src="images/amazone-logo.png" class="img-fluid "> </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12 col-lg-7">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-12 col-lg-6 ">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 ">
+                  <div class="box"> <img src="images/fast_icon.png" class="img-fluid   center">
+                    <h4>Dedicated Amazon <span>Marketing Specialist </span></h4>
+                    <p>Our marketing team work with the modern tools & methods to get the highest ranking for your business on the organic search results.</p>
+                    <h5><a href="#" data-toggle="modal" data-transition="pop" data-target="#myModal">GET A QUOTE</a></h5>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 ">
+                  <div class="box2"> <img src="images/two_icon.png" class="img-fluid center">
+                    <h4>Advanced Machine <span>Learning Technology</span></h4>
+                    <p>We are developing the customized machine learning and data-driven strategy covering the full range of sponsored goods and sponsored marketing advertising services from Amazon.</p>
+                    <h5><a href="#" data-toggle="modal" data-transition="pop" data-target="#myModal">GET A QUOTE</a></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-12 col-lg-6 ">
+              <div class="row"> 
+                <!--<div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 "> <img src="images/min-logo.png" class="img-fluid center logo-anim" /> </div>-->
+                <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 ">
+                  <div class="box3"> <img src="images/four_icon.png" class="img-fluid center">
+                    <h4>Decades of Experience</h4>
+                    <p>We have experienced on Amazon, our team’s primary goal is to help you achieve success. Our experts help you to achieve success. We provide tools to handle all of the Amazon platforms.</p>
+                    <h5><a href="#" data-toggle="modal" data-transition="pop" data-target="#myModal">GET A QUOTE</a></h5>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xl-12 col-lg-12 ">
+                  <div class="box3 new-color"> <img src="images/five_icon.png" class="img-fluid center">
+                    <h4>Unmatched Client Satisfaction  </h4>
+                    <p>We are amazon account manager’s experts and we provide tools to handle all of the Amazon platforms at the seller central levels. Clients chose us because we understand Amazon. </p>
+                    <h5><a href="#" data-toggle="modal" data-transition="pop" data-target="#myModal">GET A QUOTE</a></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="thre" id="service">
+  <div class="row">
+    <div class="col-md-6 col-sm-6 col-12 col-lg-6 no_space">
+      <div class="bg-custom">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-lg-4 col-12">
+            <div class="circle-box">
+              <h3>New to Amazon?</h3>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-12 col-lg-7 float-right offset-1">
+            <div class="tab">
+              <h3>Our Amazon Services</h3>
+              <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"> <span class="below"></span>Amazon Account Setup</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')"> <span class="below"></span>Product Research & Sourcing </button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')"><span class="below"></span>Product Listing –FBA/FBM</button>
+              <button class="tablinks" onclick="openCity(event, 'Doors')"><span class="below"></span>Account Management</button>
+              <button class="tablinks" onclick="openCity(event, 'well')"> <span class="below"></span>Amazon Marketing Activities</button>
+              <button class="tablinks" onclick="openCity(event, 'can')"><span class="below"></span>Amazon Consulting Services</button>
+              <button class="tablinks" onclick="openCity(event, 'cat')"><span class="below"></span>Unique Services</button>
+              <button class="tablinks" onclick="openCity(event, 'cat5')"><span class="below"></span>Amazon SEO & Product Ranking Services </button>
+              <button class="tablinks" onclick="openCity(event, 'cat6')"><span class="below"></span>Sourcing & Launching</button>
+              <button class="tablinks" onclick="openCity(event, 'cat7')"><span class="below"></span>Amazon Account Management</button>
+              <button class="tablinks" onclick="openCity(event, 'cat8')"><span class="below"></span>Amazon Training Services </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-6 col-12 col-lg-6 no_space">
+      <div class="bg-custom2">
+        <div id="London" class="tabcontent">
+          <h2>Amazon Account Setup</h2>
+          <p>We create your account and ensure that it is done the right way. </p>
+          <ul>
+            <li>Account Creation and Ongoing Account Set Up</li>
+            <li>Seller Central</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="Paris" class="tabcontent">
+          <h2>Product Research & Sourcing </h2>
+          <p>We do research on your product and analyze impressions, sales, revenue and price trend of your competitors to verify your product sourcing ideas.</p>
+          <ul>
+            <li>	Product Research from Jungle Scout</li>
+            <li>	Communication with Alibaba Vendors or Sourcing Agents</li>
+            <li>	Product Sourcing Activities</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="Tokyo" class="tabcontent">
+          <h2>Product Listing –FBA/FBM</h2>
+          <p>We can add extra success to your e-commerce business through Amazon. We will list your products on Amazon and start selling your products. </p>
+          <ul>
+            <li> Competitor Analysis</li>
+            <li> Product Listings</li>
+          <li>	Create Variations</li>
+            <li> Enhanced Brand Content</li>
+            <li> Product Keyword Research</li>
+            <li> Product Listing Optimization</li>
+            <li> Keyword Ranking</li>
+            <li> A+ Content</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="Doors" class="tabcontent">
+          <h2>Account Management</h2>
+          <p>We are great marketers and we can help you become a successful Amazon seller. When you sign up for Amazon selling, you can reach customers up to 180+ countries, and give your products global reach.</p>
+          <ul>
+            <li>Inventory Management</li>
+            <li>Create FBA Shipment</li>
+            <li>Feedback Management</li>
+            <li>Manage Case Logs</li>
+            <li>Category Approval</li>
+            <li>International Amazon Market Setup</li>
+            <li>Buy Box Strategies</li>
+            <li>Amazon Customer Support</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="well" class="tabcontent">
+          <h2>Amazon Marketing Activities</h2>
+          <p>Amazon is always changing and we pride ourselves on staying up-to-date. We offer a full suite of Amazon-focused advertising services. Amazon Advertising is a powerful tool to improve sales and visibility. </p>
+          <ul>
+            <li>Design Brand Page and Storefront</li>
+            <li>PPC Scope, PPC Entourage</li>
+            <li>Amazon Marketing Service (AMS)</li>
+            <li>Image Editing</li>
+            <li>Sponsored Product Ads (PPC)</li>
+            <li>Create Promotions, Lightning Deal, Early Review Program</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="can" class="tabcontent">
+          <h2>Amazon Consulting Services</h2>
+          <p>We’ll discuss our findings and share with you a breakdown of what we can accomplish for your business in the Amazon marketplace.</p>
+          <ul>
+            <li>Amazon Search Engine Optimization</li>
+            <li>Amazon Product listing optimization</li>
+            <li>Amazon PPC Management</li>
+            <li>Amazon customer Support</li>
+            <li>Amazon Ranking Services</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="cat" class="tabcontent">
+          <h2>Unique Services</h2>
+          <p>We build strong presence on Amazon through our services and we pay full personalized attention and reach your target audience to earn sales. </p>
+          <ul>
+            <li>SEO for Amazon Products</li>
+            <li>SEO for amazon Sellers</li>
+            <li>Amazon Optimization Consultant</li>
+            <li>Optimization of Product Listings</li>
+            <li>Sales and Marketing services</li>
+            <li>Usage of Ethical SEO Techniques</li>
+            <li>Customer Support Services</li>
+            <li>Product Page SEO</li>
+          </ul>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="cat5" class="tabcontent">
+          <h2>Amazon SEO & Product Ranking Services</h2>
+          <p>Amazon SEO =Optimizing Product Listings=Better Ranking =More Visibility=More Sales</p>
+          <p>The higher you rank, the more you sell! When you do SEO for your business your product automatically appear at the top of the Amazon search results.</p>
+          <ul>
+            <li>Product Research - Competitor Analysis</li>
+            <li>Keyword Research</li>
+            <li>Content Optimization</li>
+            <li>Amazon Shipment And FBA Setup</li>
+            <li>Amazon Sponsored Ads (PPC)</li>
+            <li>Ranking Your Products Organically In Amazon</li>
+            <li>Customer Support</li>
+            <li>Amazon Virtual Assistance</li>
+          </ul>
+        </div>
+        <div id="cat6" class="tabcontent">
+          <h2>Sourcing & Launching</h2>
+          <p>Looking for a new product source or would you like to start your business on Amazon? We can help you do that.</p>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="cat7" class="tabcontent">
+          <h2>Amazon Account Management</h2>
+          <p>We provide an all-inclusive Amazon account management service where we will run your account for you.</p>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+        <div id="cat8" class="tabcontent">
+          <h2>Amazon Training Services </h2>
+          <p>You can learn to manage your Amazon account with one-on-one training sessions.</p>
+          <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></section>
+<section>
+  <div class="second_wrapper">
+    <div class="container">
+      <div class="row">
+        <h2>THE webmization EXPERT METHODS</h2>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12"> <img src="images/second_warpper.png" class="img-fluid">
+          <div class="row">
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+              <div class="second_warpper_text">
+                <h4><span>Research</span></h4>
+                <p>We can research for you to get better results. Our team will collect the data, crunch it and create the perfect project for you.  </p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+              <div class="second_warpper_text01">
+                <h4><span>Innovate</span></h4>
+                <p>With time, we help you evolve to develop, expand and gain a competitive advantage.</p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+              <div class="second_warpper_text">
+                <h4><span>Plan</span></h4>
+                <p>To support your company and achieve your marketing goals, we will prepare the marketing strategies.</p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+              <div class="second_warpper_text01">
+                <h4><span>Execute</span></h4>
+                <p>We believe in giving peace of mind to our shoppers. We'll sell your goods, and you'll see your products come alive on the Amazon like you've never before and your brand will be famous on Amazon.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="let_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+          <h4>LET’S TALK!</h4>
+          <p>Let’s get started growing your Amazon business. <br>
+            The opportunity is yours </p>
+          <ul>
+            <li>
+              <button class="text animated wobble">
+              <a href="javascript:$zopim.livechat.window.show()">live chat</a>
+              </button>
+            </li>
+            <li>
+              <button class="text animated wobble" data-toggle="modal" data-transition="pop" data-target="#myModal">get a quote</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="third_wrapper">
+    <div class="row">
+      <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-sm-custom-none">
+        <div class="third_wrapper_user"> <img src="images/third_wrapper_user.png"> </div>
+        <div class="third_wrapper_user01"> <img src="images/third_wrapper_user01.png"> </div>
+        <div class="third_wrapper_user02"> <img src="images/third_wrapper_user02.png"> </div>
+        <div class="third_wrapper_user03"> <img src="images/third_wrapper_user03.png"> </div>
+        <div class="third_wrapper_user04"> <img src="images/third_wrapper_user04.png"> </div>
+      </div>
+      <div class="col-12 col-sm-6  col-md-6 col-lg-4">
+        <div class="third_wrapper_images"> <img src="images/third_wrapper_sec.png" class="img-fluid"> </div>
+      </div>
+      <div class="col-12 col-sm-5 col-md-5 col-lg-5">
+        <div class="third_wrapper_text ">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <h5>Testimonial</h5>
+              <h6>Client’s Feedback</h6>
+              <p>It was my first time trying such a service and I’m extremely happy with how it turned out. They delivered everything that was promised well within the stipulated time.</p>
+              <!--<h3>Sara Wils</h3>--> 
+              <!--<h4>Unit Incharge Amazon</h4>--> 
+            </div>
+            <div class="item">
+              <h5>Testimonial</h5>
+              <h6>Client’s Feedback</h6>
+              <p>Webmization did everything they said they would do and did it on time! The whole process was very easy!</p>
+              <!--<h3>Sara Wils</h3>--> 
+              <!--<h4>Unit Incharge Amazon</h4>--> 
+            </div>
+            <div class="item">
+              <h5>Testimonial</h5>
+              <h6>Client’s Feedback</h6>
+              <p>Our experience with Webmization has exceeded our expectations in every way. Their people are talented and enjoyable to work with, and they use cutting-edge technology to organize the process. </p>
+              <!--<h3>Sara Wils</h3>--> 
+              <!--<h4>Unit Incharge Amazon</h4>--> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="logo_text"> <img src="images/logo.png" class="img-fluid">
+            <p>&copy; 2019 Amazon | All Rights Reserved</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="logo_text02">
+            <h5>Subscribe us for news and update</h5>
+            <input type="text" name="" placeholder="email" id="nemail">
+            <button class="text animated wobble" onclick="newsletter();">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/custom.js"></script> 
+<script>
+    function activate() {
+        $('#aname').removeAttr('style');
+        $('#acompany_name').removeAttr('style');
+        $('#aemail').removeAttr('style');
+        $('#aphone').removeAttr('style');
+        $('#aservice').removeAttr('style');
+        $('#aidea').removeAttr('style');
+        $('#amessage').removeAttr('style');
+        
+        var name = $("#aname").val();
+        var email = $("#aemail").val();
+        var phone = $("#aphone").val();
+        var msg = $("#amessage").val();
+        var services = $('#aservice').val();
+        var idea = $('#aidea').val();
+        var company = $('#acompany_name').val();
+
+        var sub = 'Amazon Account Management';
+        var error = 0;
+        if (name == '') {
+            $('#aname').css('color', 'red');
+            error++;
+        }
+        if (email == '') {
+            $('#aemail').css('color', 'red');
+            error++;
+        }
+        if (!validateEmail(email)) {
+            error++;
+            $('#aemail').css('color', 'red');
+            $('#aemail').focus();
+        }
+        if (phone == '') {
+            $('#aphone').css('color', 'red');
+            error++;
+        }
+        
+        if (error == 0) {
+            $.ajax({
+                url: 'https://webmization.com/script',
+                data: {
+                    name : name,
+                    email : email,
+                    phone : phone,
+                    msg : msg,
+                    services : services,
+                    idea : idea,
+                    company : company,
+                    sub: sub,
+                },
+                type: "POST",
+                success: function (res) {
+                window.location = 'thank-you.html';
+                    $("#name").val('');
+                    $("#email").val('');
+                    $("#phone").val('');
+                    $("#msg").val('');
+                }
+            });
+        }
+    }
+    
+    
+    function bactivate() {
+        $('#name').removeAttr('style');
+        $('#email').removeAttr('style');
+        $('#phone').removeAttr('style');
+        $('#msg').removeAttr('style');
+        
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var phone = $("#phone").val();
+        var msg = $("#msg").val();
+
+        var sub = 'Amazon Account Management';
+        var error = 0;
+        if (name == '') {
+            $('#name').css('color', 'red');
+            error++;
+        }
+        if (email == '') {
+            $('#email').css('color', 'red');
+            error++;
+        }
+        if (!validateEmail(email)) {
+            error++;
+            $('#email').css('color', 'red');
+            $('#email').focus();
+        }
+        if (phone == '') {
+            $('#phone').css('color', 'red');
+            error++;
+        }
+        
+        if (error == 0) {
+            $.ajax({
+                url: 'https://webmization.com/script',
+                data: {
+                    name : name,
+                    email : email,
+                    phone : phone,
+                    msg : msg,
+                    sub: sub,
+                },
+                type: "POST",
+                success: function (res) {
+                window.location = 'thank-you.html';
+                    $("#name").val('');
+                    $("#email").val('');
+                    $("#phone").val('');
+                    $("#msg").val('');
+                }
+            });
+        }
+    }
+    
+    function newsletter() {
+        $('#nemail').removeAttr('style');
+        var email = $("#nemail").val();
+
+        var sub = 'Amazon Account Management - News Letter';
+        var error = 0;
+
+        if (email == '') {
+            $('#nemail').css('color', 'red');
+            error++;
+        }
+        if (!validateEmail(email)) {
+            error++;
+            $('#nemail').css('color', 'red');
+            $('#nemail').focus();
+        }
+        
+        
+        if (error == 0) {
+            $.ajax({
+                url: 'https://webmization.com/script',
+                data: {
+                    email : email,
+                    sub: sub,
+                },
+                type: "POST",
+                success: function (res) {
+                window.location = 'thank-you.html'
+                    $("#nemail").val('');
+                }
+            });
+        }
+    }    
+    
+    
+     function validateEmail(email) {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+</script> 
+
+<!-- Start of  Zendesk Widget script -->
+<script id="ze-snippet" src="../ekr/snippet.js?key=db71600e-682e-4826-9efa-12d4f973cb55"> </script>
+<!-- End of  Zendesk Widget script -->
+
+<!-- CRM API -->
+<script defer="" type="text/javascript" src="../api.js"></script>
+
+</body>
+</html>
