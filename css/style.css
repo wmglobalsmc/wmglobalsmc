@@ -754,11 +754,11 @@ i {
 
 .indicators-black .active,
 .scrollToTop {
-    background-color: #cb0300
+    background-color: #1b11a2
 }
 
 .color-theme{
-    color: #cb0300;
+    color: #1b11a2;
 }
 
 .v-center{
@@ -1610,7 +1610,7 @@ nav .container {
 
 .sticky-nav.nav-border-bottom {
     border-bottom: 1px solid transparent;
-    border-top: 3px solid #a22411
+    border-top: 3px solid #1b11a2
 }
 
 .nav-border-bottom-fix,
@@ -2019,7 +2019,7 @@ footer .footer-top {
 
 .page-title-small {
     padding: 7px 0;
-    background: #cb0300
+    background: #1b11a2
 }
 
 .page-title-small h1 {
@@ -8773,7 +8773,7 @@ h3.itlac_font {
 }
 
 .bg-red {
-    background-color: #cb0300!important
+    background-color: #1b11a2!important
 }
 
 .bg-drop_div ul {
@@ -13410,7 +13410,7 @@ div#demo {
 .inner_form {
     overflow: hidden;
     padding: 30px 10px;
-    background: #cb0300
+    background: #1b11a2
 }
 
 .wb_ser:hover h3,
@@ -13556,7 +13556,7 @@ a.highlight-button-dark {
 
 .custom {
     font-size: 15px;
-    color: #cb0300;
+    color: #1b11a2;
     padding: 5px 0;
     float: left
 }
@@ -13739,7 +13739,7 @@ div#demo {
     text-transform: uppercase;
     margin: 0 0 20px;
     font-weight: 600;
-    color: #cb0300
+    color: #1b11a2
 }
 
 .custom-res p {
@@ -13773,7 +13773,7 @@ div#demo {
 }
 
 .new-res span {
-    color: #cb0300
+    color: #1b11a2
 }
 
 .cuntom-text p {
@@ -13807,7 +13807,7 @@ div#demo {
 }
 
 .respos h1 span {
-    color: #cb0300
+    color: #1b11a2
 }
 
 .respos h6 {
@@ -14305,7 +14305,7 @@ div#demo {
         margin: 30px 0 0
     }
     .form-res {
-        background: #cb0300;
+        background: #1b11a2;
         padding: 45px 0
     }
     .center-xs {
@@ -14332,7 +14332,7 @@ div#demo {
     }
     .custom {
         font-size: 15px;
-        color: #cb0300;
+        color: #1b11a2;
         padding: 0;
         float: left;
         margin: 0 1px 20px 0!important
@@ -15120,7 +15120,7 @@ div#demo {
         top: 10px
     }
     .inner_form {
-        background: #cb0300;
+        background: #1b11a2;
         display: none
     }
     .separator-line {
@@ -16407,7 +16407,7 @@ div#demo {
   margin-bottom: 5px;
 }
 .fc-checklist li i {
-  color: #cb0300;
+  color: #1b11a2;
   font-size: 14px;
   margin-right: 7px;
 }
@@ -16427,7 +16427,7 @@ div#demo {
 }
 
 .fc-left-btn-wrap a:first-child {
-  background-color: #cb0300;
+  background-color: #1b11a2;
   color: #fff;
   border-radius: 4px;
   font-size: 18px;
@@ -16483,7 +16483,7 @@ div#demo {
 }
 .first-category-sec-3 h2::after, .first-category-sec-5 h2::after {
   content: '';
-  background-color: #cb0300;
+  background-color: #1b11a2;
   bottom: -10px;
   height: 1px;
   width: 150px;
@@ -16563,7 +16563,7 @@ div#demo {
 
 .first-category-sec-4 button, .first-category-sec-4 a {
   display: inline-block;
-  border: 3px solid #cb0300;
+  border: 3px solid #1b11a2;
   border-radius: 0;
   color: #fff;
   font-size: 18px;
@@ -16576,7 +16576,7 @@ div#demo {
 }
 
 .first-category-sec-4 button:hover, .first-category-sec-4 a:hover {
-  background: #cb0300;
+  background: #1b11a2;
 }
 
 .first-category-sec-4 button i, .first-category-sec-4 a i {
@@ -16606,7 +16606,7 @@ div#demo {
 }
 
 .why-choose-single-wrap:hover {
-    background: #cb0300;
+    background: #1b11a2;
 }
 
 .why-choose-single-wrap:hover .why-single-text h5 {
@@ -16621,7 +16621,7 @@ div#demo {
     height: 40px;
     color: #fff;
     font-size: 20px;
-    background: #cb0300;
+    background: #1b11a2;
     box-shadow: -3px 0 3px 0 rgba(174, 174, 174, .5);
     display: flex;
     align-items: center;
