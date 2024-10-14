@@ -3046,7 +3046,7 @@ footer ul.list-inline li:first-child {
 }
 
 .about-onepage:hover .about-onepage-text-sub .black-text {
-    color: #a22410!important
+    color: #1b11a2!important
 }
 
 .about-onepage-text-sub {
@@ -5099,8 +5099,8 @@ a.new-btnP:hover i {
 
 .highlight-button-dark,
 .highlight-button:hover {
-    background-color: #a22410;
-    border: 2px solid #a22410
+    background-color: #1b11a2;
+    border: 2px solid #1b11a2
 }
 
 .highlight-button:hover {
@@ -5309,7 +5309,7 @@ a.new-btnP:hover i {
     overflow: hidden;
     position: relative;
     transition: all .2s linear 0;
-    border: 2px solid #a22410;
+    border: 2px solid #1b11a2;
     font-size: 16px
 }
 
@@ -5349,7 +5349,7 @@ a.new-btnP:hover i {
 }
 
 .button-reveal-black {
-    background-color: #a22410;
+    background-color: #1b11a2;
     color: #fff
 }
 
@@ -7225,7 +7225,7 @@ thead th.first {
 }
 
 .fashion-text {
-    color: #a22410;
+    color: #1b11a2;
     font-weight: 700
 }
 
@@ -8830,7 +8830,7 @@ p.itlac_font {
 }
 
 .fast-red-text {
-    color: #a22410!important
+    color: #1b11a2!important
 }
 
 .btn-blue,
@@ -8957,7 +8957,7 @@ h3.ban_tit_sm {
 }
 
 .bg-ornage-bg {
-    background: #a22410!important
+    background: #1b11a2!important
 }
 
 .btn-blue {
@@ -13474,8 +13474,8 @@ a.highlight-button-dark {
 
 .ord_btn {
     background-color: transparent;
-    border: 2px solid #a22410;
-    color: #a22410;
+    border: 2px solid #1b11a2;
+    color: #1b11a2;
     font-size: 21px!important;
     padding: 10px 27px!important
 }
@@ -13491,7 +13491,7 @@ a.highlight-button-dark {
 }
 
 .best_div {
-    background: #a22410;
+    background: #1b11a2;
     font-weight: 700;
     left: 0;
     margin: -28px auto;
@@ -13711,7 +13711,7 @@ div#demo {
 }
 
 .gallery-img:hover {
-    border: 7px solid #a22410;
+    border: 7px solid #1b11a2;
     box-shadow: none
 }
 
